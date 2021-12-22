@@ -1,0 +1,23 @@
+{
+    "name": "ateli/merchant",
+    "description": "Merchant playground",
+    "minimum-stability": "stable",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "User",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ateli\\Merchant\\": ""
+        }
+    }
+}
